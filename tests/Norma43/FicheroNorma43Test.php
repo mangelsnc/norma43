@@ -11,7 +11,7 @@ class FicheroNorma43Test extends \PHPUnit_Framework_TestCase
 
     public function setUp()
     {
-         $this->norma43 = new FicheroNorma43(__DIR__.'../Resources/simple-sample');
+         $this->norma43 = new FicheroNorma43(__DIR__.'/Resources/simple-sample');
     }
 
     public function testInexistentFileThrowsException()
