@@ -1,0 +1,20 @@
+{
+    "name": "mangelsnc/norma43",
+    "description": "PHP Library to manipulate bank files according Norma43",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Miguel Angel Sanchez Chordi",
+            "email": "mangel.snc@gmail.com"
+        }
+    ],
+    "require": {
+
+    },
+    "autoload": {
+        "psr-0": {
+            "Norma43\\":  "src/",
+            "Test\\":     "tests/"
+        }
+    }
+}
